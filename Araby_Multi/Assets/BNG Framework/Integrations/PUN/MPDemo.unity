@@ -418,7 +418,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6899862}
   m_Layer: 0
-  m_Name: HandPivot
+  m_Name: HandPivot (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2084,7 +2084,7 @@ GameObject:
   - component: {fileID: 93142810}
   - component: {fileID: 93142809}
   m_Layer: 0
-  m_Name: LeftHandAnimationReference
+  m_Name: LeftHandAnimationReference (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3542,7 +3542,7 @@ GameObject:
   - component: {fileID: 126358989}
   - component: {fileID: 126358988}
   m_Layer: 0
-  m_Name: LeftHandAnimationReference
+  m_Name: LeftHandAnimationReference (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3854,7 +3854,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 2fbe2fa4b55b35a4f9a1899ce7d1df70,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.05
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2fbe2fa4b55b35a4f9a1899ce7d1df70,
         type: 3}
@@ -3909,7 +3909,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 2fbe2fa4b55b35a4f9a1899ce7d1df70,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2fbe2fa4b55b35a4f9a1899ce7d1df70, type: 3}
@@ -7102,6 +7102,96 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 10682905}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &335393869 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1813712264962359011, guid: 2fbe2fa4b55b35a4f9a1899ce7d1df70,
+    type: 3}
+  m_PrefabInstance: {fileID: 135056239}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &335393870 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4559771779318441594, guid: 2fbe2fa4b55b35a4f9a1899ce7d1df70,
+    type: 3}
+  m_PrefabInstance: {fileID: 135056239}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &335393871 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5188000716767230334, guid: 2fbe2fa4b55b35a4f9a1899ce7d1df70,
+    type: 3}
+  m_PrefabInstance: {fileID: 135056239}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &335393872 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3000999626997171914, guid: 2fbe2fa4b55b35a4f9a1899ce7d1df70,
+    type: 3}
+  m_PrefabInstance: {fileID: 135056239}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &335393873 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -2854345629856863134, guid: 2fbe2fa4b55b35a4f9a1899ce7d1df70,
+    type: 3}
+  m_PrefabInstance: {fileID: 135056239}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &335393874 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6483143917234644833, guid: 2fbe2fa4b55b35a4f9a1899ce7d1df70,
+    type: 3}
+  m_PrefabInstance: {fileID: 135056239}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &335393875 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -7770925883254940408, guid: 2fbe2fa4b55b35a4f9a1899ce7d1df70,
+    type: 3}
+  m_PrefabInstance: {fileID: 135056239}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &335393876 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7275936291327412453, guid: 2fbe2fa4b55b35a4f9a1899ce7d1df70,
+    type: 3}
+  m_PrefabInstance: {fileID: 135056239}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &335393877 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4471799294413271331, guid: 2fbe2fa4b55b35a4f9a1899ce7d1df70,
+    type: 3}
+  m_PrefabInstance: {fileID: 135056239}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &335393878 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 315391940038894232, guid: 2fbe2fa4b55b35a4f9a1899ce7d1df70,
+    type: 3}
+  m_PrefabInstance: {fileID: 135056239}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &335393879 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -7394735765397553686, guid: 2fbe2fa4b55b35a4f9a1899ce7d1df70,
+    type: 3}
+  m_PrefabInstance: {fileID: 135056239}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &335393880 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -972209238043312180, guid: 2fbe2fa4b55b35a4f9a1899ce7d1df70,
+    type: 3}
+  m_PrefabInstance: {fileID: 135056239}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &335393881 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8763068438613030494, guid: 2fbe2fa4b55b35a4f9a1899ce7d1df70,
+    type: 3}
+  m_PrefabInstance: {fileID: 135056239}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &335393882 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -292187486186298162, guid: 2fbe2fa4b55b35a4f9a1899ce7d1df70,
+    type: 3}
+  m_PrefabInstance: {fileID: 135056239}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &335393883 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 38206417770016158, guid: 2fbe2fa4b55b35a4f9a1899ce7d1df70,
+    type: 3}
+  m_PrefabInstance: {fileID: 135056239}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &340468150
 GameObject:
   m_ObjectHideFlags: 0
@@ -7196,7 +7286,7 @@ GameObject:
   m_Component:
   - component: {fileID: 343493202}
   m_Layer: 0
-  m_Name: HandPivot
+  m_Name: HandPivot (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8448,7 +8538,7 @@ GameObject:
   m_Component:
   - component: {fileID: 410215510}
   m_Layer: 0
-  m_Name: HandPivot
+  m_Name: HandPivot (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11157,7 +11247,7 @@ GameObject:
   - component: {fileID: 611607542}
   - component: {fileID: 611607541}
   m_Layer: 0
-  m_Name: LeftHandAnimationReference (1)
+  m_Name: LeftHandAnimationReference (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11489,7 +11579,7 @@ GameObject:
   m_Component:
   - component: {fileID: 612999979}
   m_Layer: 2
-  m_Name: GrabberOffsetRight
+  m_Name: GrabberOffsetRight (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11639,7 +11729,7 @@ GameObject:
   - component: {fileID: 622866363}
   - component: {fileID: 622866362}
   m_Layer: 0
-  m_Name: LeftHandAnimationReference
+  m_Name: LeftHandAnimationReference (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11881,7 +11971,7 @@ GameObject:
   m_Component:
   - component: {fileID: 628883304}
   m_Layer: 2
-  m_Name: GrabberOffsetRight
+  m_Name: GrabberOffsetRight (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12246,6 +12336,96 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1892050884}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &657294607 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -1467072874091070431, guid: 2fbe2fa4b55b35a4f9a1899ce7d1df70,
+    type: 3}
+  m_PrefabInstance: {fileID: 135056239}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &657294608 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3979620648383608194, guid: 2fbe2fa4b55b35a4f9a1899ce7d1df70,
+    type: 3}
+  m_PrefabInstance: {fileID: 135056239}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &657294609 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5998144865236152598, guid: 2fbe2fa4b55b35a4f9a1899ce7d1df70,
+    type: 3}
+  m_PrefabInstance: {fileID: 135056239}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &657294610 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5065184868994824123, guid: 2fbe2fa4b55b35a4f9a1899ce7d1df70,
+    type: 3}
+  m_PrefabInstance: {fileID: 135056239}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &657294611 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -1462984631396173253, guid: 2fbe2fa4b55b35a4f9a1899ce7d1df70,
+    type: 3}
+  m_PrefabInstance: {fileID: 135056239}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &657294612 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -6937232872468535814, guid: 2fbe2fa4b55b35a4f9a1899ce7d1df70,
+    type: 3}
+  m_PrefabInstance: {fileID: 135056239}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &657294613 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8751348126262185183, guid: 2fbe2fa4b55b35a4f9a1899ce7d1df70,
+    type: 3}
+  m_PrefabInstance: {fileID: 135056239}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &657294614 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5570382908551198249, guid: 2fbe2fa4b55b35a4f9a1899ce7d1df70,
+    type: 3}
+  m_PrefabInstance: {fileID: 135056239}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &657294615 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 416449478637672833, guid: 2fbe2fa4b55b35a4f9a1899ce7d1df70,
+    type: 3}
+  m_PrefabInstance: {fileID: 135056239}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &657294616 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -2915576618213998806, guid: 2fbe2fa4b55b35a4f9a1899ce7d1df70,
+    type: 3}
+  m_PrefabInstance: {fileID: 135056239}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &657294617 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9156782464450231532, guid: 2fbe2fa4b55b35a4f9a1899ce7d1df70,
+    type: 3}
+  m_PrefabInstance: {fileID: 135056239}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &657294618 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7625222146423445749, guid: 2fbe2fa4b55b35a4f9a1899ce7d1df70,
+    type: 3}
+  m_PrefabInstance: {fileID: 135056239}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &657294619 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -5147519090148331647, guid: 2fbe2fa4b55b35a4f9a1899ce7d1df70,
+    type: 3}
+  m_PrefabInstance: {fileID: 135056239}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &657294620 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -6299828579476234424, guid: 2fbe2fa4b55b35a4f9a1899ce7d1df70,
+    type: 3}
+  m_PrefabInstance: {fileID: 135056239}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &657294621 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -6141626518049152543, guid: 2fbe2fa4b55b35a4f9a1899ce7d1df70,
+    type: 3}
+  m_PrefabInstance: {fileID: 135056239}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &661264761
 GameObject:
   m_ObjectHideFlags: 0
@@ -12406,7 +12586,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 671256957}
   m_LocalRotation: {x: -0.16492613, y: -0.5453588, z: -0.0741604, w: 0.81846404}
-  m_LocalPosition: {x: -0.09438813, y: -3.0190346, z: 0.4231124}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.85000014, y: 0.85000056, z: 0.85000026}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14243,7 +14423,7 @@ GameObject:
   - component: {fileID: 786955109}
   - component: {fileID: 786955108}
   m_Layer: 0
-  m_Name: RightHandAnimationReference
+  m_Name: RightHandAnimationReference (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15012,7 +15192,7 @@ GameObject:
   m_Component:
   - component: {fileID: 803327252}
   m_Layer: 2
-  m_Name: GrabberOffsetLeft
+  m_Name: GrabberOffsetLeft (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16187,7 +16367,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 878476814}
   m_LocalRotation: {x: 0.06904367, y: -0.023532411, z: 0.000995278, w: 0.99733555}
-  m_LocalPosition: {x: 1.220397, y: 2.781711, z: 0.27425218}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.8500003, y: 0.84999955, z: 0.8499995}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16251,7 +16431,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 881724551}
   m_LocalRotation: {x: 0.04811724, y: 0.68858135, z: -0.049530555, w: -0.72186375}
-  m_LocalPosition: {x: -0.1603897, y: -3.017035, z: 0.42211318}
+  m_LocalPosition: {x: -0.054, y: -0.002, z: -0.03}
   m_LocalScale: {x: 0.8500014, y: 0.85000044, z: 0.850001}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -18293,7 +18473,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1012961606}
   m_Layer: 2
-  m_Name: GrabberOffsetLeft  (1)
+  m_Name: GrabberOffsetLeft  (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19871,7 +20051,7 @@ GameObject:
   - component: {fileID: 1084325235}
   - component: {fileID: 1084325234}
   m_Layer: 0
-  m_Name: RightHandAnimationReference
+  m_Name: RightHandAnimationReference (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20623,7 +20803,7 @@ GameObject:
   - component: {fileID: 1106745284}
   - component: {fileID: 1106745283}
   m_Layer: 0
-  m_Name: RightHandAnimationReference (1)
+  m_Name: RightHandAnimationReference (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20974,7 +21154,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1123143939}
   m_Layer: 2
-  m_Name: GrabberOffsetRight
+  m_Name: GrabberOffsetRight (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21025,7 +21205,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1126001530}
   m_LocalRotation: {x: 0.80172485, y: -0.049684476, z: -0.589451, w: 0.08553554}
-  m_LocalPosition: {x: -0.17698835, y: -2.9745345, z: 0.38071203}
+  m_LocalPosition: {x: -0.0687, y: 0.0349, z: -0.0409}
   m_LocalScale: {x: -1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -21128,7 +21308,10 @@ MonoBehaviour:
   weight: 1
   mode: 0
   fingers:
-  - avatarBones: []
+  - avatarBones:
+    - {fileID: 657294621}
+    - {fileID: 657294616}
+    - {fileID: 657294615}
     targetBones:
     - {fileID: 2090378296}
     - {fileID: 1065388026}
@@ -21138,7 +21321,10 @@ MonoBehaviour:
     avatarUpAxis: {x: 0, y: 1, z: 0}
     targetForwardAxis: {x: 0, y: 0, z: 1}
     targetUpAxis: {x: 0, y: 1, z: 0}
-  - avatarBones: []
+  - avatarBones:
+    - {fileID: 657294620}
+    - {fileID: 657294614}
+    - {fileID: 657294613}
     targetBones:
     - {fileID: 1077579335}
     - {fileID: 787879467}
@@ -21147,7 +21333,10 @@ MonoBehaviour:
     avatarUpAxis: {x: 0, y: 1, z: 0}
     targetForwardAxis: {x: 0, y: 0, z: 1}
     targetUpAxis: {x: 0, y: 1, z: 0}
-  - avatarBones: []
+  - avatarBones:
+    - {fileID: 657294619}
+    - {fileID: 657294612}
+    - {fileID: 657294611}
     targetBones:
     - {fileID: 1241416803}
     - {fileID: 999127469}
@@ -21156,7 +21345,10 @@ MonoBehaviour:
     avatarUpAxis: {x: 0, y: 1, z: 0}
     targetForwardAxis: {x: 0, y: 0, z: 1}
     targetUpAxis: {x: 0, y: 1, z: 0}
-  - avatarBones: []
+  - avatarBones:
+    - {fileID: 657294618}
+    - {fileID: 657294610}
+    - {fileID: 657294609}
     targetBones:
     - {fileID: 558854723}
     - {fileID: 1580039420}
@@ -21165,7 +21357,10 @@ MonoBehaviour:
     avatarUpAxis: {x: 0, y: 1, z: 0}
     targetForwardAxis: {x: 0, y: 0, z: 1}
     targetUpAxis: {x: 0, y: 1, z: 0}
-  - avatarBones: []
+  - avatarBones:
+    - {fileID: 657294617}
+    - {fileID: 657294608}
+    - {fileID: 657294607}
     targetBones:
     - {fileID: 1769269259}
     - {fileID: 2072028876}
@@ -23192,7 +23387,7 @@ GameObject:
   - component: {fileID: 1295502636}
   - component: {fileID: 1295502635}
   m_Layer: 0
-  m_Name: RightHandAnimationReference
+  m_Name: RightHandAnimationReference (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23591,7 +23786,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1324440686}
   m_Layer: 0
-  m_Name: HandPivot
+  m_Name: HandPivot (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23920,7 +24115,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1336720382}
   m_Layer: 2
-  m_Name: GrabberOffsetLeft
+  m_Name: GrabberOffsetLeft (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25071,7 +25266,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1430471271}
   m_Layer: 2
-  m_Name: GrabberOffsetRight (1)
+  m_Name: GrabberOffsetRight (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26189,7 +26384,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1497933890}
   m_LocalRotation: {x: -0.6592838, y: -0.067549124, z: 0.7463489, w: 0.061197728}
-  m_LocalPosition: {x: 1.1431971, y: 2.824611, z: 0.31815243}
+  m_LocalPosition: {x: -0.0567, y: 0.0408, z: 0.0402}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -26292,7 +26487,10 @@ MonoBehaviour:
   weight: 1
   mode: 0
   fingers:
-  - avatarBones: []
+  - avatarBones:
+    - {fileID: 335393883}
+    - {fileID: 335393878}
+    - {fileID: 335393877}
     targetBones:
     - {fileID: 1027928368}
     - {fileID: 1331822992}
@@ -26302,7 +26500,10 @@ MonoBehaviour:
     avatarUpAxis: {x: 0, y: 1, z: 0}
     targetForwardAxis: {x: 0, y: 0, z: 1}
     targetUpAxis: {x: 0, y: 1, z: 0}
-  - avatarBones: []
+  - avatarBones:
+    - {fileID: 335393882}
+    - {fileID: 335393876}
+    - {fileID: 335393875}
     targetBones:
     - {fileID: 586604380}
     - {fileID: 1578396602}
@@ -26311,7 +26512,10 @@ MonoBehaviour:
     avatarUpAxis: {x: 0, y: 1, z: 0}
     targetForwardAxis: {x: 0, y: 0, z: 1}
     targetUpAxis: {x: 0, y: 1, z: 0}
-  - avatarBones: []
+  - avatarBones:
+    - {fileID: 335393881}
+    - {fileID: 335393874}
+    - {fileID: 335393873}
     targetBones:
     - {fileID: 1715732731}
     - {fileID: 2071714758}
@@ -26320,7 +26524,10 @@ MonoBehaviour:
     avatarUpAxis: {x: 0, y: 1, z: 0}
     targetForwardAxis: {x: 0, y: 0, z: 1}
     targetUpAxis: {x: 0, y: 1, z: 0}
-  - avatarBones: []
+  - avatarBones:
+    - {fileID: 335393880}
+    - {fileID: 335393872}
+    - {fileID: 335393871}
     targetBones:
     - {fileID: 1109972991}
     - {fileID: 1854620653}
@@ -26329,7 +26536,10 @@ MonoBehaviour:
     avatarUpAxis: {x: 0, y: 1, z: 0}
     targetForwardAxis: {x: 0, y: 0, z: 1}
     targetUpAxis: {x: 0, y: 1, z: 0}
-  - avatarBones: []
+  - avatarBones:
+    - {fileID: 335393879}
+    - {fileID: 335393870}
+    - {fileID: 335393869}
     targetBones:
     - {fileID: 2047130709}
     - {fileID: 2145425578}
@@ -27527,7 +27737,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1583550205}
   m_Layer: 0
-  m_Name: HandPivot
+  m_Name: HandPivot (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29631,7 +29841,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1711054556}
   m_Layer: 2
-  m_Name: 'GrabberOffsetLeft '
+  m_Name: GrabberOffsetLeft (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29733,7 +29943,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1719311800}
   m_Layer: 2
-  m_Name: GrabberOffsetLeft
+  m_Name: GrabberOffsetLeft (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29857,7 +30067,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1727695662}
   m_LocalRotation: {x: -0.4222645, y: 0.5661045, z: 0.55960447, w: -0.43366036}
-  m_LocalPosition: {x: 1.220397, y: 2.781711, z: 0.27425218}
+  m_LocalPosition: {x: -0.0213, y: -0.0177, z: 0.0445}
   m_LocalScale: {x: 0.84999925, y: 0.84999895, z: 0.84999985}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -31305,7 +31515,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1815993195}
   m_Layer: 0
-  m_Name: HandPivot (1)
+  m_Name: HandPivot (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31400,7 +31610,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1822208087}
   m_Layer: 0
-  m_Name: HandPivot (1)
+  m_Name: HandPivot (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33937,7 +34147,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1987410440}
-  m_LocalRotation: {x: -0.02246434, y: -0.060239654, z: 0.9976876, w: 0.022045573}
+  m_LocalRotation: {x: -0.02246434, y: -0.06023965, z: 0.9976876, w: 0.022045571}
   m_LocalPosition: {x: -0.05356621, y: -0.0024395068, z: 0.0014644878}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -34375,7 +34585,7 @@ GameObject:
   - component: {fileID: 2014907838}
   - component: {fileID: 2014907837}
   m_Layer: 0
-  m_Name: LeftHandAnimationReference
+  m_Name: LeftHandAnimationReference (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34930,7 +35140,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2037997736}
   m_Layer: 0
-  m_Name: HandPivot
+  m_Name: HandPivot (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35134,7 +35344,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2052366715}
   m_Layer: 0
-  m_Name: HandPivot
+  m_Name: HandPivot (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47936,7 +48146,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3473054786179831037}
   m_Layer: 0
-  m_Name: HandPivot
+  m_Name: HandPivot (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -53518,7 +53728,7 @@ GameObject:
   - component: {fileID: 6335817045822881644}
   - component: {fileID: 7860022822617707471}
   m_Layer: 0
-  m_Name: RightHandAnimationReference
+  m_Name: RightHandAnimationReference (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -57708,7 +57918,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5753837390793158753}
   m_Layer: 2
-  m_Name: GrabberOffsetRight
+  m_Name: GrabberOffsetRight (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
