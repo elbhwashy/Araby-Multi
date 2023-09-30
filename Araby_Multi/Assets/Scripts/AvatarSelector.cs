@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class AvatarSelector : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject[] Avatars;
 
-    // Update is called once per frame
-    void Update()
+
+
+    public void OnSelectAvatar(int index)
     {
-        
-    }
+        for (int i = 0; i < Avatars.Length; i++)
+        {
+            Avatars[i].SetActive(false);
+        }
+
+        Avatars[index].SetActive(true);
+    } 
 }
