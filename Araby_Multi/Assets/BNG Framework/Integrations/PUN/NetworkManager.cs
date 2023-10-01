@@ -109,12 +109,14 @@ namespace BNG {
             LogText("Joined Room. Creating Remote Player Representation.");
 
             // Network Instantiate the object used to represent our player. This will have a View on it and represent the player         
-            GameObject player = PhotonNetwork.Instantiate(RemotePlayerObjectName, new Vector3(0f, 0f, 0f), Quaternion.identity, 0);
-            NetworkPlayer np = player.GetComponent<NetworkPlayer>();
-            if (np) {
-                np.transform.name = "MyRemotePlayer";
-                np.AssignPlayerObjects();
-            }
+            //GameObject player = PhotonNetwork.Instantiate(RemotePlayerObjectName, new Vector3(0f, 0f, 0f), Quaternion.identity, 0);
+            //NetworkPlayer np = player.GetComponent<NetworkPlayer>();
+            //if (np) {
+            //    np.transform.name = "MyRemotePlayer";
+            //    np.AssignPlayerObjects();
+            //}
+
+            PhotonNetwork.LoadLevel(1);
         }
 
         public override void OnDisconnected(DisconnectCause cause) {

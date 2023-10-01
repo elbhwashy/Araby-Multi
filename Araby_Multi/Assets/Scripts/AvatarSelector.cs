@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class AvatarSelector : MonoBehaviour
 {
-    public static int _ActiveAvatar = 0;
-
+    int cuurentAvatar = 0;
     public GameObject[] Avatars;
 
     public GameObject activeAvatar;
 
     private void Start()
     {
-        OnSelectAvatar(0);
+        //OnSelectAvatar(0);
     }
 
     public void OnSelectAvatar(int index)
@@ -23,7 +22,8 @@ public class AvatarSelector : MonoBehaviour
         }
 
         Avatars[index].SetActive(true);
-        _ActiveAvatar = index;
+        cuurentAvatar = index;
+        PlayerSpawnManager._ActiveAvatar = index;
         activeAvatar = Avatars[index];
     } 
 }

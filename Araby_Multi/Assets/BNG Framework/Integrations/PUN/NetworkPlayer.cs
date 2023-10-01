@@ -1,13 +1,19 @@
-﻿using Photon.Pun;
+﻿#if PUN_2_OR_NEWER
+using Photon.Pun;
 using Photon.Realtime;
-using System;
+#endif
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 namespace BNG {
-    public class NetworkPlayer : MonoBehaviourPunCallbacks, IPunObservable, IPunOwnershipCallbacks {
+    public class NetworkPlayer :
+#if PUN_2_OR_NEWER
+MonoBehaviourPunCallbacks, IPunObservable, IPunOwnershipCallbacks 
+#else
+        MonoBehaviour
+#endif
+        {
 
         [Tooltip("Transform of the local player's head to track. This will be applied to the Remote Player's Head Transform")]
         public Transform PlayerHeadTransform;
@@ -34,8 +40,7 @@ namespace BNG {
 
         [Tooltip("Transform of the remote player's right hand / controller. This will be updated during Update")]
         public Transform RemoteRightHandTransform;
-
-        public Transform RemotePlayeMeshTransform;
+        public Transform RemoteMeshTransform;
 
         // Store positions to move between updates
         private Vector3 _syncRHandStartPosition = Vector3.zero;
@@ -60,8 +65,7 @@ namespace BNG {
         GrabbablesInTrigger gitRight;
 
         [Tooltip("How fast to animate the fingers on the remote players hands")]
-        public float HandAnimationSpeed = 20f; 
-
+        public float HandAnimationSpeed = 20f;
 
         // Used for Hand Interpolation
         private float _syncLeftGripStart;
@@ -88,26 +92,19 @@ namespace BNG {
         protected float requestInterval = 0.1f; // 0.1 = 10 times per second
         Dictionary<int, double> requestedGrabbables;
 
-        
-
         bool disabledObjects = false;
 
         private bool _syncLeftHoldingItem;
-        private bool _syncRightHoldingItem; 
+        private bool _syncRightHoldingItem;
 
-        void Start() 
-        {
-            LeftGrabber = GameObject.Find("GrabberOffsetLeft").GetComponentInChildren<Grabber>();
+#if PUN_2_OR_NEWER
+
+        void Start() {
+            LeftGrabber = GameObject.Find("LeftController").GetComponent<HandController>().grabber;
             gitLeft = LeftGrabber.GetComponent<GrabbablesInTrigger>();
 
-            RightGrabber = GameObject.Find("GrabberOffsetRight").GetComponentInChildren<Grabber>();
+            RightGrabber = GameObject.Find("RightController").GetComponent<HandController>().grabber;
             gitRight = RightGrabber.GetComponent<GrabbablesInTrigger>();
-
-            //LeftGrabber = GameObject.Find("LeftController").GetComponentInChildren<Grabber>();
-            //gitLeft = LeftGrabber.GetComponent<GrabbablesInTrigger>();
-
-            //RightGrabber = GameObject.Find("RightController").GetComponentInChildren<Grabber>();
-            //gitRight = RightGrabber.GetComponent<GrabbablesInTrigger>();
 
             requestedGrabbables = new Dictionary<int, double>();
         }
@@ -180,7 +177,7 @@ namespace BNG {
             }
             else {
                 if(!disabledObjects) {
-                    toggleObjects(false); 
+                    toggleObjects(false);
                 }
             }
         }
@@ -188,20 +185,14 @@ namespace BNG {
         public void AssignPlayerObjects() {
             GameObject player = GameObject.FindGameObjectWithTag("Player");
 
-            PlayerHeadTransform = getChildTransformByName(player.transform, "CenterEyeAnchor");
+            PlayerHeadTransform = getChildTransformByName(player.transform, "IKEyeTarget");
 
             // Using an explicit Transform name to make sure we grab the right one in the scene
-
-            PlayerLeftHandTransform = GameObject.Find("IKLeftHandTarget").transform;
-            PlayerRightHandTransform = GameObject.Find("IKRightHandTarget").transform;
-
-            //LeftHandController = PlayerLeftHandTransform.parent.GetComponentInChildren<HandController>();
-
-            LeftHandController = GameObject.Find("LeftController").GetComponent<HandController>();
-
-            //RightHandController = PlayerRightHandTransform.parent.GetComponentInChildren<HandController>();
-
-            RightHandController = GameObject.Find("RightController").GetComponent<HandController>();
+            PlayerLeftHandTransform = GameObject.Find("IKLeftTarget").transform;
+            LeftHandController = PlayerLeftHandTransform.parent.GetComponentInChildren<HandController>();
+           
+            PlayerRightHandTransform = GameObject.Find("IKRightTarget").transform;
+            RightHandController = PlayerRightHandTransform.parent.GetComponentInChildren<HandController>();
         }
 
         Transform getChildTransformByName(Transform search, string name) {
@@ -220,8 +211,7 @@ namespace BNG {
             RemoteHeadTransform.gameObject.SetActive(enableObjects);
             RemoteLeftHandTransform.gameObject.SetActive(enableObjects);
             RemoteRightHandTransform.gameObject.SetActive(enableObjects);
-            RemotePlayeMeshTransform?.gameObject.SetActive(enableObjects);
-
+            RemoteMeshTransform.gameObject.SetActive(enableObjects);
             disabledObjects = !enableObjects;
         }
         
@@ -394,44 +384,29 @@ namespace BNG {
             // Debug.Log("OnOwnershipTransferFailed for Player " + requestingPlayer);
         }
 
-        private void OnLevelFinishedLoading(Scene arg0, LoadSceneMode arg1)
-        {
-            //AssignPlayerObjects();
-            //LeftGrabber = GameObject.Find("GrabberOffsetLeft").GetComponentInChildren<Grabber>();
-            //gitLeft = LeftGrabber.GetComponent<GrabbablesInTrigger>();
-
-            //RightGrabber = GameObject.Find("GrabberOffsetRight").GetComponentInChildren<Grabber>();
-            //gitRight = RightGrabber.GetComponent<GrabbablesInTrigger>();
-        }
+#endif
 
 
-        #region RPCs
 
+        #region SetPlayerName
 
-        #region LoadScene
-        internal void LoadScene_Remote(string className)
+        internal void SetRemoteAvatar(int viewId, int _ActiveAvatar)
         {
             if (photonView.IsMine)
             {
-                photonView.RPC("RPC_LoadScene", RpcTarget.AllBuffered, className);
+                photonView.RPC("RPC_SetRemoteAvatar", RpcTarget.AllBuffered, viewId, _ActiveAvatar);
             }
         }
 
         [PunRPC]
-        void RPC_LoadScene(string className)
+        void RPC_SetRemoteAvatar(int index, int _ActiveAvatar)
         {
-            PhotonNetwork.LoadLevel(className);
-        }
-        #endregion
+            PhotonView photonView = PhotonView.Find(index);
 
-   
-     
-      
+            photonView.GetComponent<AvatarSelector>().OnSelectAvatar(_ActiveAvatar);
+        }
 
         #endregion
 
     }
-
-
-
 }
